@@ -1,0 +1,29 @@
+.backgroundpageone {
+    background:url(../img/marbre.jpg)no-repeat center fixed ;
+    opacity: 1;
+    background-size:cover ;
+}
+.imagelogo{
+    height: 48%;
+    width: 48%;
+    position: absolute;
+    left: 50%;
+    top: 10%;
+    transform: translate(-50%, -50%);
+}
+.couronne{
+    height: 12%;
+    width: 5%;
+    position: absolute;
+    left: 45%;
+    top: 5%;
+    transform: translate(-50%, -50%);
+}
+.listeperso{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: large;
+    position: absolute;
+    left: 5%;
+    top: 10%;
+}
+
