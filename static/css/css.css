@@ -41,11 +41,6 @@
     left: 92%;
     top: 6%; 
 }
-.backgroundpagetwo {
-    background: url(../img/continent.jpg)no-repeat center fixed ;
-    opacity: 1;
-    background-size:cover ;
-}
 .name{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: large;
