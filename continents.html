@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Game of thrones</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link type="text/css" rel="stylesheet" href="/static/css/css.css" />
+    <link rel="icon" href="/static/img/gotlogo.png" />
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+</head>
+<body class="backgroundpageone">
+    <img class="imagelogo" alt="image logo" src="/static/img/gotlogo.png">
+    <img class="couronne" alt="couronne" src="/static/img/couronne.png">
+    <img class="chateau" alt="chateau" src="/static/img/chateauuu.png">
+    <table class= "table table-hover">
+        <div class="home"><a style="color:white;"href="/index.html">Home</a></div>
+        <thead class="listecontinent">
+            <th>Name</th>
+        </thead>
+        <tbody>
+            {{range .}}
+            <tr>
+                <td>{{.Name}}</td>
+            </tr>
+            {{end}}
+            </tbody>
+        </table>
+    </body>
+    </html>

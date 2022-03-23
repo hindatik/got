@@ -1,0 +1,116 @@
+.backgroundpageone {
+    background: url(../img/fonddd.jpg)no-repeat center fixed ;
+    opacity: 1;
+    background-size:cover ;
+}
+
+.imagelogo{
+    height: 48%;
+    width: 48%;
+    position: absolute;
+    left: 50%;
+    top: 10%;
+    transform: translate(-50%, -50%);
+}
+.couronne{
+    height: 12%;
+    width: 5%;
+    position: absolute;
+    left: 45%;
+    top: 5%;
+    transform: translate(-50%, -50%);
+}
+.listeperso{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: large;
+    margin-top: 19%;
+    margin-left: 26%;
+
+}
+.home{
+    font-family: 'Trajan Pro' , cursive;
+    font-size: large;
+    position: absolute;
+    left: 6%;
+    top: 6%; 
+}
+.continent{
+    font-family: 'Trajan Pro', cursive;
+    font-size:large;
+    position: absolute;
+    left: 92%;
+    top: 6%; 
+}
+.backgroundpagetwo {
+    background: url(../img/continent.jpg)no-repeat center fixed ;
+    opacity: 1;
+    background-size:cover ;
+}
+.name{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: large;
+    position: absolute;
+    left: 26%;
+    top: 27%; 
+}   
+.lastname{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: large;
+    position: absolute;
+    left: 47%;
+    top: 27%; 
+}
+.voirprofil{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: large;
+    position: absolute;
+    left: 67%;
+    top: 27%; 
+}
+
+td {
+    width: 14%;
+}
+.chateau{
+    height: 12%;
+    width: 5%;
+    position: absolute;
+    left: 3%;
+    top: 7%;
+    transform: translate(-50%, -50%);
+}
+a{
+    color: black;
+    
+}
+.globe{
+    height: 9%;
+    width: 5%;
+    position: absolute;
+    left: 89%;
+    top: 8%;
+    transform: translate(-50%, -50%);
+}
+.table {
+    margin-top: 18%;
+    vertical-align:top;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Trajan Pro', cursive;
+    font-size: large;
+}
+.table > thead{
+    height: 10vh;
+    text-decoration: underline;
+    font-family:Georgia, 'Times New Roman', Times, serif
+}
+.table img{
+    height: 250px;
+}
+.listecontinent{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: large;
+    margin-top: 19%;
+    margin-left: 26%;
+    color:white;
+}
